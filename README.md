@@ -47,6 +47,8 @@
 - Headed Mode: Test scripts can be executed in headed mode
 - Reporting:
 Allure Reports: The primary reporting tool in this framework is AllureReports. Access the report from the TestReports/TestExecutionReport.html file.
+To see the allure result. Please download the project and navigate to the allure-reports folder and open command prompt on windows
+Please Enter this command: **allure serve allure-results**
 - The report includes details such as AccountManagementPage, UserRegistrationAndAuthenticationPage, and BankingOperationsPage.
 - It captures screenshots for each test case (both pass and fail) and provides failure reasons.
 
