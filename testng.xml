@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Parabank-WebAutomation">
+	<listeners>
+		<listener class-name="com.parabank.utils.TestListener" />
+	</listeners>
+	<test thread-count="5" name="Parabank-Automation">
+		<parameter name="siteURL" value="https://parabank.parasoft.com/" />
+		<parameter name="browser" value="chrome" />
+		<classes>
+			 <class name="com.parabank.tests.UserRegistrationAndAuthenticationTest" />
+			<class name="com.parabank.tests.AccountManagementTest" />
+			<class name="com.parabank.tests.BankingOpearationsTest" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
